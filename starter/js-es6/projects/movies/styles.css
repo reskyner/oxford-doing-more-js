@@ -1,0 +1,63 @@
+
+/* Remove default styles with RESET rule */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: menlo, tahoma;
+	color:darkslategrey;
+	background-color: beige;
+	margin:1rem;
+}
+
+.movies, .basket{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.basket{
+	width:50%;
+	margin:2rem auto;
+}
+
+/* SPECIFICITY */
+
+/* Loose coupling HTML and CSS 
+
+	<div class="film">
+
+*/
+
+
+.film{
+	border:1px solid darkslategrey;
+	width:180px;
+	padding:1rem;
+	margin:0.5rem; 
+	background-color: white;
+	cursor: pointer;
+}
+
+.selected{
+	opacity: 0.2;
+	cursor: default;
+}
+
+
+img{
+	margin:10px auto;
+	display: block;
+}
+
+h4{
+	color:sienna;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+}
