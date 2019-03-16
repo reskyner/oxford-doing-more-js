@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', Arial;
+    font-size: 1.25rem;
+    line-height: 2;
+    color:darkslategrey;
+    margin:2rem;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section{
+    border:1px solid lightgrey;
+    padding:1rem;
+    margin:0.25rem;
+    text-align: center;
+    width:10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+span{
+    color:orangered;
+    padding-left: 0.5rem;
+}
+
+.out-stock{
+    opacity: 0.4;
+    cursor: default;
+}
+
+.reset{
+    background-color: orangered;
+    padding:0.5rem;
+    border-radius: 4px;
+    margin:1rem auto;
+    color:white;
+    text-align: center;
+    width:8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

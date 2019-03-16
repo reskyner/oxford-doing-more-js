@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: oswald, helvetica;
+}
+
+.letter{
+	background-color: orange;
+	border-radius: 50%;
+	border:8px dashed black;
+	height:4rem;
+	width:4rem;
+	margin:1rem;
+	display: inline-block;
+	cursor: pointer;
+	transition: 1s all;
+	text-align: center;
+	font-size: 2.75rem;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.anim {
+	animation: rotation 1s infinite alternate;
+	cursor: default;
+	user-select: none;
+}
+
+.revealWord{
+	font-size: 4rem;
+	color:orangered;
+	text-align: center;
+	margin:1rem;
+	transition:1s all;
+
+	position:relative;
+	left:-100rem;
+}
+
+.reveal{
+	left:0;
+}

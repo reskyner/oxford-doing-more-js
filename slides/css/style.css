@@ -1,0 +1,20 @@
+body {
+	font-family: 'Oswald', Arial;
+}
+
+.slide{
+	font-size:2.75rem;
+	text-align: center;
+	margin:8rem auto;
+	letter-spacing: 1px;
+	width:80%;
+}
+
+h2{
+	color: orangered;
+	margin:1rem;
+}
+
+h4{
+	margin: 1rem;
+}
